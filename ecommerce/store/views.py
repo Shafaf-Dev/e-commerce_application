@@ -2,10 +2,15 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render
+from .models import *
+
+
+
 
 
 def store(request):
-    context = {}
+    producta = Product.objects.all()
+    context = {'producta':Product}
     return render(request, 'store/store.html', context)
 
 
