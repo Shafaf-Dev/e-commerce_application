@@ -9,4 +9,4 @@ features of application
 -> add to cart
 -> user signup and signin
 
-sample project for education purpuse...(not completed)
+
